@@ -1,12 +1,12 @@
 # Panasonic_CSR
 
-##Introduction
+## Introduction
 
 In this repository, a start has been made to make a conversion of ROS commands to a csr-file
 which can be used in the DTPS software of Panasonic manipulators. In this repo, a Panasonic 
 VR-006L manipulator is used.
 
-##Installation
+## Installation
 
 To install this repo, just clone it into your workspace:
 
@@ -19,7 +19,7 @@ source devel/setup.bash
 catkin_make
 
 
-##Usage
+## Usage
 
 After the installation, a launch can simply be launched as follows:
 
