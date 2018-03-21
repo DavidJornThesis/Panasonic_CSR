@@ -10,17 +10,18 @@ VR-006L manipulator is used.
 
 To install this repo, just clone it into your workspace:
 
-cd ~/catkin_ws/src
-
-git clone -b 'branch' 'github-webcode'
-
-source devel/setup.bash
-
-catkin_make
+```
+  cd ~/catkin_ws/src
+  git clone -b 'branch' 'github-webcode'
+  source devel/setup.bash
+  catkin_make
+```
 
 
 ## Usage
 
 After the installation, a launch can simply be launched as follows:
 
-roslaunch convert_to_csr ros_to_csr.launch
+```
+  roslaunch convert_to_csr ros_to_csr.launch
+```
