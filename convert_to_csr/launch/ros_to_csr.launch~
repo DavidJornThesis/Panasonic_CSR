@@ -1,0 +1,11 @@
+<launch>
+
+  <include file="$(find panasonic_vr006l_moveit_config)/launch/demo.launch"/>
+
+  <node name="ros_to_csr" pkg="convert_to_csr" type="csr" respawn="false" output="screen">
+
+  <param name="local_path" value="$(find convert_to_csr)/files/text.csr" />
+
+  </node>
+
+</launch>
